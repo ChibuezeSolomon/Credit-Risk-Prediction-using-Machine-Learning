@@ -52,12 +52,12 @@ Hyperparameter tuning (GridSearchCV)
 Threshold tuning (business-driven decision threshold = 0.35)
 
  Model Performance:
-Model	Accuracy	Precision (Risk=1)	Recall (Risk=1)	F1-score	ROC-AUC
-Logistic Regression	0.625	0.434	0.817	0.566	0.786
-SVM	0.715	0.516	0.783	0.623	0.751
-Random Forest	0.640	0.445	0.817	0.576	0.765
-KNN	0.665	0.466	0.800	0.589	0.762
-XGBoost	0.665	0.466	0.800	0.589	0.762
+  Model	             Accuracy	       Precision (Risk=1)	         Recall (Risk=1)	        F1-score	      ROC-AUC
+Logistic Regression	  0.625	              0.434	                     0.817	               0.566	         0.786
+  SVM	                0.715	              0.516	                     0.783	               0.623	         0.751
+Random Forest	        0.640	              0.445	                     0.817	               0.576	         0.765
+  KNN	                0.665	              0.466	                     0.800	               0.589	         0.762
+XGBoost	              0.665	              0.466	                     0.800	               0.589	         0.762
 
  Key Insights:
 Logistic Regression achieved the best overall performance with the highest ROC-AUC and strong recall
